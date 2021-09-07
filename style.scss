@@ -1,25 +1,51 @@
 header{
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    margin-right: 5px;
-    ;
-   }
-   #navigation{
-       //background-color: rgb(192, 188, 188);
-      margin-top: 50px;
-      width: 100%;
-      height: 70px;
-   }
-/*-------logo---------------------*/   
-   .logo_CabAndCo img{
-    margin-top: 40px;
-    margin-left: 35px;
-  height: 90px;
-   }
-   .partenariat{
-       width: 1000%;
-   }
-/*------- formulaire----------------*/
-   #form{
-       background-color: rgb(188, 188, 231);
-   }
+    margin-left: 190px;
+    margin-right: 180px;
+    
+}
+#navigation{
+    margin-top: 10px;
+    margin-bottom: 10px;
+& img{
+    height: 120px;
+    
+}}
+#cardHistory{
+    margin-bottom: 10px;
+}
+
+
+#sommaire a{
+    font-size: 20px;
+}
+#history img{
+   height: 500px;
+}
+#metiers{
+    background-color: #2b0548;
+ height: 630px;
+    & h3, h2{
+        color: white;
+    }
+}
+#metiers h3:hover{
+    opacity: 0.5;
+}
+#cardsMetiers{
+    padding-top: 8%;
+}
+#expertise{
+  margin-top: 100px;
+    height: 350px;
+}
+#logoFooter img{
+    height:70px;
+    margin-right: 50px;
+}
+#internet {
+    margin-left: 50px;
+    color: #2b0548;
+}
+#footer{
+    margin-bottom: 50px;
+}
