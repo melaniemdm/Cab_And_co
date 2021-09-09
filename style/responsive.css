@@ -1,0 +1,56 @@
+@media only screen and (max-width: 767px) {
+  header {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #history img {
+    height: 350px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #metiers {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #expertise {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #footer {
+    background-color: #2b0548;
+    height: 180px;
+  }
+
+  #logoFooter img {
+    position: absolute;
+    right: 0px;
+    margin-right: 45px;
+    margin-top: 30px;
+  }
+
+  #sommaireFooter a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 11px;
+    color: white;
+    margin-right: 30px;
+  }
+
+  #sommaireFooter {
+    margin-bottom: 50px;
+  }
+
+  #internet {
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    color: #2b0548;
+  }
+}/*# sourceMappingURL=responsive.css.map */
