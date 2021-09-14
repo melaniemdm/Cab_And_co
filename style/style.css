@@ -66,4 +66,8 @@ header {
 
 #sommaireFooter a {
   color: white;
+}
+
+#form {
+  visibility: hidden;
 }/*# sourceMappingURL=style.css.map */
