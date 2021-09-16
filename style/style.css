@@ -69,5 +69,8 @@ header {
 }
 
 #form {
-  visibility: hidden;
+  background-color: #d6d0d0;
+  visibility: visible;
+  position: fixed;
+  top: 175px;
 }/*# sourceMappingURL=style.css.map */
