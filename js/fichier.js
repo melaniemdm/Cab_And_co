@@ -17,3 +17,20 @@ document.addEventListener("keyup", function (e) {
         disappears()
      
     }});
+var nodeBurger = document.querySelector("#burger")
+nodeBurger.addEventListener("click", displaySommaire)    
+var nodeSommaire = document.querySelector("#sommaire")
+var nodeBurgerClose = document.querySelector("#burgerClose")
+nodeBurgerClose.addEventListener("click", closeSommaire)    
+
+function displaySommaire(){
+nodeSommaire.style.display = "flex";
+nodeBurger.style.display="none";
+nodeBurgerClose.style.display = "flex";
+}
+
+function closeSommaire(){
+    nodeSommaire.style.display = "none";
+    nodeBurgerClose.style.display = "none";
+    nodeBurger.style.display="block";
+}

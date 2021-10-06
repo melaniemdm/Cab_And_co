@@ -74,5 +74,13 @@ header{
     visibility: hidden;
     position: fixed;
     top: 175px;
-    
+} 
+/*---------------------------------- responsive menu---------------*/
+@media all and (max-width: 600px) {
+#sommaire{ 
+    display: none;
+}
+#burgerClose{
+    display: none;
+}
 }
