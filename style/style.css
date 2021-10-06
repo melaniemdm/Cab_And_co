@@ -84,4 +84,9 @@ header {
   #burgerClose {
     display: none;
   }
+
+  #form {
+    position: absolute;
+    top: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
